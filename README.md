@@ -18,9 +18,10 @@ pre-feed the solution to a particular problem in text file ; along with equation
 
 DEMO
 -----
-a demo file is included in this repository please refer to it for further clarification
+a demo file (questions.txt) is included in this repository please refer to it for further clarification.
 
 NOTE
 -----
 
-please note that the text file should have the same name as the one in this repository.
+please note that  - the text file should have the same name as the one in this repository.
+                  - for proper execution the tags should occur in the same sequence as in the demo file ( q: then v: then e: ) 
