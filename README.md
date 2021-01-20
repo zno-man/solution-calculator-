@@ -23,5 +23,6 @@ a demo file (questions.txt) is included in this repository please refer to it fo
 NOTE
 -----
 
-please note that  - the text file should have the same name as the one in this repository.      <br>
-                  - for proper execution the tags should occur in the same sequence as in the demo file ( q: then v: then e: ). <br>
+please note that    
+  -  the text file should have the same name as the one in this repository.      <br>
+  -  for proper execution the tags should occur in the same sequence as in the demo file ( q: then v: then e: ). <br>
