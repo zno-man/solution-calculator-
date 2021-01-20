@@ -1,0 +1,49 @@
+q:
+------------------------------------------------
+ann
+------------------------------------------------
+
+
+
+
+
+
+
+
+q:
+SYNCHRONOUS POWER AND TORQUE
+An 8-pole, 500kVA, 3.3kV, 3-phase, star connected synchronous generator,
+ the effective resistance and synchronous reactance per phase of which are 0.7 and 6.53
+respectively is operating on 3.3kV, 50Hz bus bars.
+ Calculate the synchronising power and torque per mechanical degree of displacement 
+when it is operating on full load at a power factor of 0.8 lagging.
+
+to find the torque and the power 
+v:
+
+V = 3300
+P = 500000
+POWER_RATING = 500000
+R = 0.7
+XS= 6.533
+POWER_FACTOR = 0.8
+LEADorLAG = -1
+
+e:
+
+Vphase = V/(3**(1/2))
+
+
+q:
+------------------------------------------------------------
+ELECTRICAL MACHINES
+------------------------------------------------------------
+ROTOR_INPUT = STATOR_INPUT - (STATOR_COPPER_LOSS + STATOR_IRON_LOSS)
+MECHANICAL_POWER_DEVELOPED = ROTOR_INPUT - ROTOR_COPPER_LOSS
+SHAFT_OUTPUT = MECHANICAL_POWER_DEVELOPED - MECHANICAL_LOSS
+
+Pir = ROTOR_INPUT
+Pd  = MECHANICAL_POWER_DEVELOPED
+Po  = SHAFT_OUTPUT
+
+Ns = 120*f/p
